@@ -1,4 +1,4 @@
-	.text 		#demonstra que as instruções a seguir estarão descritas em texto
+	.text 		#demonstra que as instruções a seguir estarão descritas em texto 
 	.globl main 	#denomina nome da funçao do programa principal, como int main (void) {} na linguagem C.
 
 main:	la $t1,v1	 #indicando o vetpr 1 para o registrador t1
