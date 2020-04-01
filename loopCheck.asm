@@ -1,8 +1,8 @@
 #Desenvolver um algoritmo com loop que compute um vetor contendo os
 #elementos comuns a 2 vetores. Em comuns deve ser armazenado o número de elementos
 #comuns. O tamanho dos vetores é igual a todos.  
-  
-  .text
+	
+	.text
 	.globl main
 
 
