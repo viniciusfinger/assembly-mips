@@ -1,4 +1,4 @@
-#Somar dois vetores e posicionar a resposta em um terceiro utilizando loop.	
+#Somar dois vetores e posicionar a resposta em um terceiro utilizando loop
   
   .text
 	.globl main
