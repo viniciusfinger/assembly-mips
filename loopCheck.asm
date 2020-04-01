@@ -21,7 +21,7 @@ loop:
 	beq $s0,$s1, exit #se o indicie for igual ao tamanho, sair
 	sll  $t3, $s0, 2  #avança uma posição no indice
 	
-	#carregar em T4 a posição i do vetor 1
+	#carregar em T4 a posição i do vetor 1 
 	addu $t4, $t3, $t0
 	lw   $t4, 0($t4)
 	
