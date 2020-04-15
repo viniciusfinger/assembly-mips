@@ -43,7 +43,7 @@ exit:	li $v0, 10
 
 
 	.data
-valor:	.word 99                    #aqui vai o valor que você deseja que seja a tabuada
+valor:	.word 2                #aqui vai o valor que você deseja que seja a tabuada
 igual:	.asciiz " = "
 vezes:	.asciiz " x "
 enter:	.asciiz "\n"
