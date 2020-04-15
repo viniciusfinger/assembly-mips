@@ -7,7 +7,11 @@ loop:	beq $s0, 11, exit
 	la $s1, valor
 	lw $s1,0($s1)
 	
-	la $a0, frase
+	la $a0, ($s1)
+	li $v0, 1
+	syscall
+	
+	la $a0, vezes
 	li $v0, 4
 	syscall
 	
@@ -37,7 +41,7 @@ exit:	li $v0, 10
 
 
 	.data
-valor:	.word 3                    #aqui vai o valor que você deseja que seja a tabuada
+valor:	.word 99                    #aqui vai o valor que você deseja que seja a tabuada
 igual:	.asciiz " = "
-frase:	.asciiz "2 x "
+vezes:	.asciiz " x "
 enter:	.asciiz "\n"
