@@ -1,7 +1,4 @@
 # AssemblyMips
-Assembly + Arquitetura MIPS (Microprocessor without interlocked pipeline stages)
+Assembly + MIPS architecture (Microprocessor without interlocked pipeline stages) class at La Salle University - Brazil 
 
-   Códigos que escrevi durante a cadeira de Arquitetura de computadores. 
-Todos escritos para processadores de arquitetura MIPS (utilizados em alguns embarcados da Cisco, Windows CE, Nintendo64)
-
-https://pt.wikipedia.org/wiki/Arquitetura_MIPS
+All codes run at MIPS architecture, like Cisco embedded systems, Windows CE, Nintendo64...
